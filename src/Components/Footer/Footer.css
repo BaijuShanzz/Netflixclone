@@ -1,0 +1,33 @@
+.footer-section{
+    color: white;
+    margin: 40px 20px;
+}
+.contact-number{
+    margin: 1rem 0;
+}
+
+.list-item{
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.contact-details-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* responsive view  */
+
+@media(max-width: 767px){
+    .contact-details-container{
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: flex-start;
+    }
+    .footer-section{
+        margin: 10px;
+    }
+    
+
+}
